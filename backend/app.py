@@ -109,7 +109,8 @@ def logout():
 
     session.clear()
     return redirect("/login")
-
+    
+# HI VISHAAL
 
 if __name__ == "__main__":
     app.run(debug=True)
